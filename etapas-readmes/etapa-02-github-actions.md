@@ -145,4 +145,4 @@ Com o pipeline configurado, qualquer push no repositório da aplicação irá:
 
 ---
 
-### **[🔙 Voltar - Etapa 01](etapas-readmes/etapa-01-fastapi-dockerfile.md) | [➡️ Avançar - Etapa 03](etapas-readmes/etapa-03-manifests.md)**
+### **[🔙 Voltar - Etapa 01](etapa-01-fastapi-dockerfile.md) | [➡️ Avançar - Etapa 03](etapa-03-manifests.md)**

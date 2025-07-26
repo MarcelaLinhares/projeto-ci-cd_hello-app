@@ -64,4 +64,4 @@ A aplicação FastAPI foi implementada e empacotada com Docker, estando pronta p
 
 ---
 
-### **[🔙 Voltar - README Principal](https://github.com/MarcelaLinhares/projeto-ci-cd_hello-app) | [➡️ Avançar - Etapa 02](etapas-readmes/etapa-02-github-actions.md)**
+### **[🔙 Voltar - README Principal](https://github.com/MarcelaLinhares/projeto-ci-cd_hello-app) | [➡️ Avançar - Etapa 02](etapa-02-github-actions.md)**
