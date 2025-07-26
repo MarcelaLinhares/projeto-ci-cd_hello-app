@@ -75,6 +75,8 @@ Depois, clique no botão **Merge** para aplicar as alterações na branch princi
 📸 **Print do botão de merge:**
 
 ![Print do botão de merge](../img/11-etapa5-teste.png)
+![Print do botão de merge](../img/12-etapa5-teste.png)
+![Print do botão de merge](../img/13-etapa5-teste.png)
 
 ## 4. Verificar sincronização no ArgoCD
 
@@ -82,14 +84,15 @@ Após a mesclagem do PR, o ArgoCD fará a sincronização automática com o novo
 
 📸 **Print do ArgoCD com novo deploy sincronizado:**
 
-![Print do ArgoCD com novo deploy sincronizado](../img/12-etapa5-teste.png)
+![Print do ArgoCD com novo deploy sincronizado](../img/14-etapa5-teste.png)
+![Print do ArgoCD com novo deploy sincronizado](../img/15-etapa5-teste.png)
 
 ## 5. Validar atualização da aplicação
 
 Acesse novamente a aplicação usando o mesmo comando de port-forward:
 
 ```bash
-ubectl port-forward svc/hello-app-service 8081:80 -n hello-app
+kubectl port-forward svc/hello-app-service 8081:80 -n hello-app
 ```
 
 Depois, acesse:
@@ -102,7 +105,7 @@ A nova mensagem deverá ser exibida.
 
 📸 **Print da nova mensagem exibida:**
 
-![Print da nova mensagem exibida](../img/13-etapa5-teste.png)
+![Print da nova mensagem exibida](../img/16-etapa5-teste.png)
 
 ## 6. Verificar pods ativos no cluster
 
@@ -114,7 +117,7 @@ kubectl get pods -n hello-app
 
 📸 **Print da listagem dos pods:**
 
-![Print da listagem dos pods](../img/14-etapa5-teste.png)
+![Print da listagem dos pods](../img/17-etapa5-teste.png)
 
 ---
 
