@@ -133,6 +133,26 @@ O token `PAT` (Personal Access Token) é necessário para que o GitHub Actions c
 
 > Esse token permitirá que o GitHub Actions realize commits e crie Pull Requests automaticamente no repositório `projeto-ci-cd_manifests`.
 
+## 4. Evidências do Pipeline CI/CD em Execução
+
+### 4.1. Build e Push da Imagem no Docker Hub
+
+A imagem `hello-app` foi construída com sucesso e enviada ao Docker Hub com as tags `latest` e o SHA do commit (`${{ github.sha }}`), como parte do processo automatizado de CI/CD.
+
+📸 **Print do Docker Hub com a imagem publicada**
+
+![Print do Docker Hub com a imagem publicada](../img/02-etapa2-dockerhub.png)
+
+---
+
+### 4.2. Atualização Automática do Manifesto com Pull Request
+
+O GitHub Actions gerou automaticamente um Pull Request no repositório de manifests (`projeto-ci-cd_manifests`), atualizando a tag da imagem com o SHA do commit.
+
+📸 **Print do Pull Request com nova tag da imagem**
+
+![Print do Pull Request com nova tag da imagem](../img/03-etapa2-pr-automatico.png)
+
 ---
 
 ## ✅ Conclusão da Etapa

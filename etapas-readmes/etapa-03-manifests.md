@@ -41,6 +41,10 @@ spec:
             - containerPort: 8080
 ```
 
+>⚠️ **Observação:** o valor `latest` será automaticamente substituído pelo GitHub Actions por uma tag gerada com base no SHA do commit.
+Exemplo de valor real após atualização automática:
+`marcelalinhares/hello-app:49c7ab981ab47f9c7d`
+
 ## 3. Arquivo `service.yaml`
 
 Define o serviço responsável por expor a aplicação dentro do cluster Kubernetes.
